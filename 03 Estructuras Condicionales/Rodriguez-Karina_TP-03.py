@@ -4,7 +4,7 @@ from statistics import mode, median, mean
 
 """ Alumna: Rodriguez Karina """
 
-""" Trabajo Práctico n° 3 """
+""" Trabajo Práctico n° 3 - Condicionales """
 
 """ Ejercicio 1 """
 """ Escribir un programa que solicite la edad del usuario. Si el usuario es mayor de 18 años,

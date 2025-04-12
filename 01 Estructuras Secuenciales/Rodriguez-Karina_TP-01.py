@@ -2,6 +2,8 @@ import math
 
 """ Alumna: Rodriguez Karina """
 
+""" Trabajo Práctico n° 1 - Secuenciales """
+
 """ Ejercicio 1 """
 """ Crear un programa que imprima por pantalla el mensaje: “Hola Mundo!”. """
 
