@@ -1,0 +1,4 @@
+# Elementos a ignorar:
+__pycache__/
+.env
+env/
