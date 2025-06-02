@@ -20,3 +20,7 @@ def isValidNumber(number, min = float('-inf'), max = float('inf')):
         return True
     else: 
         return False
+
+def replaceSpecialCharacters(string):
+    word = string.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
+    return word
