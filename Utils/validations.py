@@ -24,3 +24,6 @@ def isValidNumber(number, min = float('-inf'), max = float('inf')):
 def replaceSpecialCharacters(string):
     word = string.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
     return word
+
+def removePunctuation(string):
+    return re.sub(r'[^\w\s]', '', string)
