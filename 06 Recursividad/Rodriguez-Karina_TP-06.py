@@ -34,7 +34,7 @@ def main():
     while repeat:
         print('Que ejercicio desea ejecutar? (0 para salir)')
         option = input('Opcion: ')
-        isValidOption = validations.isValidIntNumber(option, 0, 10)
+        isValidOption = validations.isValidIntNumber(option, 0, 8)
 
         if not isValidOption:
             print('No es una opcion valida, ingrese nuevamente.')
